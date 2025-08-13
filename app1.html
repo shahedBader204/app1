@@ -1,56 +1,117 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-  <title>my Photos </title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>Nature & Photography</title>
+  <meta name="description" content="A website blog — One-page, responsive, mobile-first portfolio for projects and expertise." />
+  <link rel="stylesheet" href="app1.css" />
 </head>
-<body class="page">
+<body>
 
-  <header class="header">
-    <h1 class="header__title">My Photos</h1>
+  <header class="site-header">
+    <div class="u-container u-row">
+      <div class="site-header__brand u-muted">Shahed®</div>
+      <nav class="site-header__nav">  
+      </nav>
+    </div>
   </header>
 
-  <div class="main-content">
+  <section class="site-hero">
+    <div class="u-container">
+      <h1 class="site-hero__title">Nature & Photography</h1>
 
-    <section class="projects">
-      <h2 class="projects__title">My Latest Shots</h2>
+      <div class="site-hero__cols">
+        <div class="site-hero__left u-muted">
+          Let’s talk.<br/>
+          Available for websites & branding.
+        </div>
+        <div class="site-hero__right u-muted">
+          Through my lens, I collect moments the heart never forgets
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section class="section-head">
+    <div class="u-container section-head__row">
+      <h2 class="section-head__title">My Nature Photography</h2>
+      <a class="section-head__more u-link u-muted" href="#">More →</a>
+    </div>
+  </section>
+
+  <main class="projects">
+    <div class="u-container">
       <div class="projects__grid">
-        <article class="projects__item">
-          <img src="images/photo1.jpg" alt="Photo 1" class="projects__image" />
-          <h3 class="projects__caption">Caption One</h3>
-          <p class="projects__description">
-            <!-- first disc -->
-          </p>
+        <article class="card projects__card">
+          <div class="card__media">
+            <img class="card__img" src="image1.GIF" alt="Mobile banking app preview">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">sunset over my town</h3>
+            <p class="card__desc">Golden rays painting the sky as the day says goodbye.</p>
+          </div>
         </article>
 
-        <article class="projects__item">
-          <img src="images/photo2.jpg" alt="Photo 2" class="projects__image" />
-          <h3 class="projects__caption">Caption Two</h3>
-          <p class="projects__description">
-            <!-- second disc -->
-          </p>
+        <article class="card projects__card">
+          <div class="card__media">
+            <img class="card__img" src="image2.GIF" alt="SaaS website preview">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Rainy Moments</h3>
+            <p class="card__desc">Raindrops tapping on the car window, blending warmth and chill in one scene.</p>
+          </div>
         </article>
 
-        <article class="projects__item">
-          <img src="images/photo3.jpg" alt="Photo 3" class="projects__image" />
-          <h3 class="projects__caption">Caption Three</h3>
-          <p class="projects__description">
-            <!-- third disc -->
-          </p>
+        <article class="card projects__card">
+          <div class="card__media">
+            <img class="card__img" src="image3.GIF" alt="iOS homescreen widgets preview">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">City of Ramallah</h3>
+            <p class="card__desc">A vibrant heart where streets are alive with stories and colors.</p>
+          </div>
         </article>
 
-        <article class="projects__item">
-          <img src="images/photo4.jpg" alt="Photo 4" class="projects__image" />
-          <h3 class="projects__caption">Caption Four</h3>
-          <p class="projects__description">
-            <!-- fourth disc -->
-          </p>
+        <article class="card projects__card">
+          <div class="card__media">
+            <img class="card__img" src="image4.GIF" alt="Brand tile preview">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title">Bethlehem University</h3>
+            <p class="card__desc">Where history marks a place.</p>
+          </div>
         </article>
       </div>
-    </section>
-  </div>
+    </div>
+  </main>
 
+  <section class="expertise">
+    <div class="u-container">
+      <h2 class="expertise__title">Expertise</h2>
+      <div class="expertise__grid">
+        <div class="expertise__item">
+          <h3>Landscape Photography</h3>
+          <p>Capturing wide, breathtaking views that showcase the beauty of nature and cities.</p>
+        </div>
+        <div class="expertise__item">
+          <h3>Urban Scenes</h3>
+          <p>Documenting the vibrant life, architecture, and culture of Palestinian cities.</p>
+        </div>
+        <div class="expertise__item">
+          <h3>Weather & Mood</h3>
+          <p>Photographs that reflect the atmosphere — from sunny days to rainy reflections.</p>
+        </div>
+        <div class="expertise__item">
+          <h3>Travel Moments</h3>
+          <p>Telling stories of the road through images of places and journeys.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-foot">
+    <div class="u-container u-row">
+      <span class="u-muted">© 2025 Shahed Bader</span>
+    </div>
+  </footer>
 </body>
 </html>
